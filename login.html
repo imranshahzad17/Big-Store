@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg header navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="BigStore" width="150" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex mx-auto w-75 seachBar" role="search">
+          <input class="form-control rounded-0 w-75 " type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn bg-white rounded-0" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">AboutUs</a>
+          </li>
+          <li class="nav-item active">
+            <button type="button" class="btn border-0" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                <i class="fa-solid fa-user text-white"></i>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body d-flex justify-content-around">
+                            <h5>
+                                <a class="nav-link text-black" href="Login.html">Login <i
+                                        class="fa-solid fa-right-to-bracket"></i></a>
+                            </h5>
+                            <h5>
+                                <a href="Signup.html" class="nav-link text-black">Signup <i
+                                        class="fa-solid fa-user-plus"></i></a>
+                            </h5>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary header" data-bs-dismiss="modal">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+       </div>
+    </div>  
+  </nav>
+    <!-- navbar End -->
+   <div class="main mt-5">
+    <div class="form w-50 m-auto border">
+        <div class="text-center mt-5 ">
+         <h3> LOGIN </h3>
+         <h6>
+         DON'T HAVE AN ACCOUNT? <a href="signup.html" class="text-info text-decoration-none">SIGN UP</a>
+        </h6><br>
+        </div>
+        <br><br>
+        
+        <div class="form-floating mb-3 ">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating  mb-2">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="Password">Password</label>
+        </div>
+        <div class="d-flex justify-content-end">
+            <div>
+             <a href="index.html">
+                <button class="btn header btn-secondary ">
+                    LOGIN
+                </button>
+             </a>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="text-center">
+            <br>
+
+            <h4>
+                OR LOGIN WITH
+            </h4>
+            <br>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr">
+                <div class="d-flex justify-content-around flex-wrap">
+                    <button class="btnf">   FACEBOOK <i class="fa-brands fs-2  fa-facebook "></i></button>   
+            </a>
+            <a href="https://www.google.com/"><button class="btng">GOOGLE<i class="fa-brands fs-2  fa-google-plus "></i>
+            </button></a>
+</div>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>     
+</body>
+</html>
